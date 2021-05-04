@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export QT_QPA_PLATFORM=offscreen
+exec python3 /usr/share/eyewitness/EyeWitness.py "$@"
